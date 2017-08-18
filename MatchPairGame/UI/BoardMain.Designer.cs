@@ -95,7 +95,9 @@
             // button1
             // 
             this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button1.FlatAppearance.BorderSize = 10;
@@ -104,13 +106,14 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(66, 60);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button2.FlatAppearance.BorderSize = 10;
@@ -119,12 +122,13 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(66, 60);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button3.FlatAppearance.BorderSize = 10;
@@ -133,13 +137,12 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(66, 60);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button4.FlatAppearance.BorderSize = 10;
@@ -153,7 +156,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button5.FlatAppearance.BorderSize = 10;
@@ -167,7 +170,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button6.FlatAppearance.BorderSize = 10;
@@ -181,7 +184,7 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button7.FlatAppearance.BorderSize = 10;
@@ -195,7 +198,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button8.FlatAppearance.BorderSize = 10;
@@ -206,10 +209,11 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Visible = false;
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button9.FlatAppearance.BorderSize = 10;
@@ -223,7 +227,7 @@
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button10.FlatAppearance.BorderSize = 10;
@@ -237,7 +241,7 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button11.FlatAppearance.BorderSize = 10;
@@ -251,7 +255,7 @@
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button12.FlatAppearance.BorderSize = 10;
@@ -265,7 +269,7 @@
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button13.FlatAppearance.BorderSize = 10;
@@ -279,7 +283,7 @@
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button14.FlatAppearance.BorderSize = 10;
@@ -293,7 +297,7 @@
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button15.FlatAppearance.BorderSize = 10;
@@ -307,7 +311,7 @@
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button16.FlatAppearance.BorderSize = 10;

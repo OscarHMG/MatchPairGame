@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMatch", "Project1\CardMatch.csproj", "{538656FA-5F15-4B2B-9BFD-A4E1218132DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMatch", "MatchPairGame\CardMatch.csproj", "{538656FA-5F15-4B2B-9BFD-A4E1218132DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

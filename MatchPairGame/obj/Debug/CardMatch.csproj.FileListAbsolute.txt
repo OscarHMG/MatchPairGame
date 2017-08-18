@@ -10,3 +10,15 @@ C:\Users\desarrollo1\documents\visual studio 2017\Projects\Project1\Project1\obj
 C:\Users\desarrollo1\documents\visual studio 2017\Projects\Project1\Project1\obj\Debug\CardMatch.UI.BoardMain.resources
 C:\Users\desarrollo1\documents\visual studio 2017\Projects\Project1\Project1\bin\Debug\MySql.Data.dll
 C:\Users\desarrollo1\documents\visual studio 2017\Projects\Project1\Project1\bin\Debug\MySql.Data.xml
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\bin\Debug\MatchPairGame.exe.config
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\bin\Debug\MatchPairGame.exe
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\bin\Debug\MatchPairGame.pdb
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\bin\Debug\MySql.Data.dll
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\bin\Debug\MySql.Data.xml
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.csprojResolveAssemblyReference.cache
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.Properties.Resources.resources
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.UI.BoardMain.resources
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.UI.windowLogin.resources
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.csproj.GenerateResource.Cache
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.exe
+C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.pdb
