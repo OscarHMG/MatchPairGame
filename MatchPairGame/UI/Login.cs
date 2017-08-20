@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MatchPairGame;
+using MatchPairGame.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,15 +36,37 @@ namespace CardMatch.UI
 
         private void linkLabelRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            RegisterForm register = new RegisterForm();
+            register.Show();
         }
+
+
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            //System.Windows.Forms.Application.Run(new BoardMain());
-            this.Hide();
-            BoardMain board = new BoardMain();
-            board.Show();
+
+            
+            DBConnection db = new DBConnection();
+            MatchPairGame.UI.Board board;
+
+            if (textBoxUserName.Text.Equals("") || textBoxPassword.Text.Equals(""))
+            {
+                MessageBox.Show("Ingrese usuario y/o Contraseña");
+            }else
+            {
+                if (db.login(textBoxUserName.Text, textBoxPassword.Text) != -1)
+                {
+                    this.Hide();
+                    board = new MatchPairGame.UI.Board();
+                    board.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario y/o Contraseña incorrectos");
+
+                }
+            }
+
             
         }
 

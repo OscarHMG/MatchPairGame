@@ -35,14 +35,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Board.cs" />
+    <Compile Include="Model\DBConnection.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Model\Card.cs" />
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Card.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Board.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\BoardMain.cs">
       <SubType>Form</SubType>
@@ -61,6 +72,9 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\BoardMain.resx">
       <DependentUpon>BoardMain.cs</DependentUpon>

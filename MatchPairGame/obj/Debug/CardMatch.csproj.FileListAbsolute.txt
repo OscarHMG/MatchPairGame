@@ -22,3 +22,15 @@ C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPa
 C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.csproj.GenerateResource.Cache
 C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.exe
 C:\Users\desarrollo1\Documents\Visual Studio 2017\Projects\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.pdb
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\bin\Debug\MatchPairGame.exe.config
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\bin\Debug\MatchPairGame.exe
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\bin\Debug\MatchPairGame.pdb
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\bin\Debug\MySql.Data.xml
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.csprojResolveAssemblyReference.cache
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.Properties.Resources.resources
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.UI.BoardMain.resources
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.UI.windowLogin.resources
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\CardMatch.csproj.GenerateResource.Cache
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.exe
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.pdb
+C:\Users\ricky universidad\Desktop\JuegoPares\MatchPairGame\MatchPairGame\obj\Debug\MatchPairGame.registerform.resources

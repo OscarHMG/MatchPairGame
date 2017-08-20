@@ -81,7 +81,7 @@
             this.containerLayout.Controls.Add(this.button15, 2, 3);
             this.containerLayout.Controls.Add(this.button16, 3, 3);
             this.containerLayout.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.AddColumns;
-            this.containerLayout.Location = new System.Drawing.Point(164, 54);
+            this.containerLayout.Location = new System.Drawing.Point(151, 63);
             this.containerLayout.Name = "containerLayout";
             this.containerLayout.RowCount = 4;
             this.containerLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -359,26 +359,26 @@
             // nuevoJuegoToolStripMenuItem1
             // 
             this.nuevoJuegoToolStripMenuItem1.Name = "nuevoJuegoToolStripMenuItem1";
-            this.nuevoJuegoToolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
+            this.nuevoJuegoToolStripMenuItem1.Size = new System.Drawing.Size(174, 22);
             this.nuevoJuegoToolStripMenuItem1.Text = "Nuevo Juego";
             this.nuevoJuegoToolStripMenuItem1.Click += new System.EventHandler(this.nuevoJuegoToolStripMenuItem1_Click);
             // 
             // top10DePuntajesToolStripMenuItem
             // 
             this.top10DePuntajesToolStripMenuItem.Name = "top10DePuntajesToolStripMenuItem";
-            this.top10DePuntajesToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.top10DePuntajesToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.top10DePuntajesToolStripMenuItem.Text = "Top 10 de Puntajes";
             // 
             // acercaToolStripMenuItem
             // 
             this.acercaToolStripMenuItem.Name = "acercaToolStripMenuItem";
-            this.acercaToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.acercaToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.acercaToolStripMenuItem.Text = "Acerca";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
             // BoardMain
@@ -396,6 +396,7 @@
             this.Name = "BoardMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoardMain";
+            this.Load += new System.EventHandler(this.BoardMain_Load);
             this.containerLayout.ResumeLayout(false);
             this.containerLayout.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

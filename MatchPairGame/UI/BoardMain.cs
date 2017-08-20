@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CardMatch.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,9 @@ namespace CardMatch.UI
         {
             InitializeComponent();
             startTimer();
+            Card myText = new Card(1,1,null);
+            myText.Location = new Point(10, 10);
+            this.Controls.Add(myText);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -81,6 +85,11 @@ namespace CardMatch.UI
             b.labelTimer.Visible = true;
             b.Show();
             
+        }
+
+        private void BoardMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -12,8 +12,9 @@ namespace CardMatch.Model
         static void Main(string [] args)
         {
             //Console.WriteLine("Hola Mundo");
-            Board board = new Board();
-            board.printBoard();
+            //MatchPairGame.UI.Board board = new MatchPairGame.UI.Board();
+            //board.printBoard();
+
             windowLogin init = new windowLogin();
             System.Windows.Forms.Application.Run(init);
             //init.ShowDialog();
